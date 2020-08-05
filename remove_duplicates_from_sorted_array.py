@@ -25,6 +25,11 @@ It doesn't matter what values are set beyond the returned length.
 
 '''
 two pointers solution:
+Since 'set' cannot be used and a new array cannot be used,
+we could loop through the array and count the number of unique elements. To keep
+track of the unique elements, each new elements encountered in the loop will be
+set to as the existing value for the next comparison.
+
 Time complexities: O(n), one loops.
 '''
 
